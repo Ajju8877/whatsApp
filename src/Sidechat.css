@@ -1,0 +1,17 @@
+.sidechat{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 1px  #003366;  
+}
+.sidechat:hover{
+background-color: #eee;
+transition: 0.3s;
+}
+.sidechat_info{
+margin-left: 10px;
+}
+.sidechat_info h1{
+font-size: 18px;
+font-weight: bolder;
+}

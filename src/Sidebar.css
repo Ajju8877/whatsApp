@@ -1,0 +1,57 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.35;
+  border-right: solid 1px #004080;
+}
+.sidebar_header {
+  background-color: #004080;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 40px;
+}
+
+.sidebar_headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.sidebar_headerRight > .muiSvgIcon-root {
+  margin-right: 2vw;
+}
+.sidebar_search {
+  display: flex;
+  background-color: #4da6ff;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 10px;
+}
+
+.sidebar_searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.sidebar_searchContainer > input {
+  outline: none;
+  border: none;
+  background-color: #4da6ff;
+}
+
+.sidebar_searchContainer > input::placeholder {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebar_chat {
+  overflow-y: scroll;
+  cursor: pointer;
+}
